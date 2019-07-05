@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BootEx03.html</title>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<style type="text/css">
+
+	/* 테이블 기본 서식 */
+	#table
+	{
+		width: 500px;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	
+	#table td
+	{
+		border: 1px solid black;
+	}
+	
+	#table1
+	{
+		width: 720px;
+	}
+	
+	#table1 th{text-align: center;}
+	#table1 th:nth-child(1){width: 50px;}
+	#talbe1 th:nth-child(2){width: 460px;}
+	#table1 th:nth-child(3){width: 60px;}
+	#table1 th:nth-child(4){width: 100px;}
+	#table1 th:nth-child(5){width: 50px;}
+	
+	#table1 td{text-align: center;}
+	#table1 td:nth-child(2){text-align: left;}
+	#table1 td:nth-child(5){text-align: right;}
+	
+	#btnSet
+	{
+		margin-top: -10px;
+		
+	}
+	
+	#main
+	{
+		width: 700px;
+		margin: 0px auto;
+	}
+	
+</style>
+
+</head>
+<body>
+
+<h1>회원가입</h1>
+
+<form action="" style="width: 500px; margin: 20px;">
+	
+	<input type="text" class="form-control">
+	<br>
+	
+	<textarea rows="" cols="" class="form-control"></textarea>
+	<br>
+	
+	<select class="form-control">
+		<option>Test1</option>
+		<option>Test2</option>
+		<option>Test3</option>
+		<option>Test4</option>
+	</select>
+	<br>
+	
+	<input type="checkbox" class="form-control">
+	<br>
+	
+	<input type="checkbox" style="width: 20px;">
+	<br><br>
+	
+	<a href="#" class="form-control">네이버</a>
+	<a href="#" class="form-control">다음</a>
+	
+	<br><hr><br>
+	
+	<input type="button" value="confirm">
+	<input type="button" value="confirm" class="btn">
+	<input type="button" value="confirm" class="btn btn-default">
+	<br><br>
+	
+	<input type="button" value="confirm" class="btn btn-default">
+	<input type="button" value="confirm" class="btn btn-success">
+	<input type="button" value="confirm" class="btn btn-primary">
+	<input type="button" value="confirm" class="btn btn-info">
+	<input type="button" value="confirm" class="btn btn-warning">
+	<input type="button" value="confirm" class="btn btn-danger">
+	<br><br>
+	
+	<!-- 『btn-block』 : 버튼이 포함되어 있는 부모 요소만큼 꽉 채워서 랜더링한다. -->
+	<input type="button" value="confirm" class="btn btn-primary btn-block">
+	<br><br>
+	
+	<!--  -->
+	<input type="button" value="confirm" class="btn btn-default">
+	<input type="button" value="confirm" class="btn btn-default active">
+	<br><br>
+	
+	<input type="button" value="confirm" class="btn btn-primary">
+	<input type="button" value="confirm" class="btn btn-primary active">
+	<br><br>
+	
+	<a href="#">네이버</a>
+	<a href="#" class="btn btn-primary" role="button">네이버</a>
+	<br><br>
+	
+</form>
+
+<div id="main">
+
+	<h1>게시판</h1>
+	
+	<table class="table table-striped" id="table1">
+		<tr>
+			<th>번호</th>
+			<th>제목</th>
+			<th>이름</th>
+			<th>날짜</th>
+			<th>읽음</th>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>게시판 테스트입니다.</td>
+			<td>홍길동</td>
+			<td>2019-06-12</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>게시판 테스트이다.</td>
+			<td>고길동</td>
+			<td>2019-06-12</td>
+			<td>31</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>게시판 테스트다!!!!!</td>
+			<td>이길동</td>
+			<td>2019-06-11</td>
+			<td>37</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>게시판 테스트인가요.</td>
+			<td>최길동</td>
+			<td>2019-06-11</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>게시판 테스트였으면</td>
+			<td>박길동</td>
+			<td>2019-06-12</td>
+			<td>32</td>
+		</tr>
+	</table>
+	
+	<div id="btnSet">
+		<input type="button" value="글쓰기" class="btn btn-default">
+		<input type="button" value="새로고침" class="btn btn-default">
+	</div>
+	
+</div>
+
+</body>
+</html>

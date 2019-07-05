@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BootEx06.html</title>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div>
+	<h1>기본 폼 구성하기</h1>
+	<hr>
+</div>
+
+<div id="content">
+	<h3>재고관리 <small>입출고 관리하기</small></h3>
+	
+	<form action="" class="form-inline">
+		<div class="form-group">
+			<label>입력하기</label>
+			
+			<div>
+				<div>원두</div>
+				<input type="text" id="txtCount" placeholder="수량을 입력하세요." required="required" class="form-control">
+				<div>kg</div>				
+			</div>
+			
+			<div>
+				<div>우유</div>
+				<input type="text" id="txtCount" placeholder="수량을 입력하세요." required="required" class="form-control">
+				<div>ml</div>
+			</div>
+		</div>
+		
+		<input type="submit" value="입력하기" class="btn btn-default">
+	</form>
+</div>
+
+</body>
+</html>

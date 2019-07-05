@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BootstrapWork/WebContent/Bootstarp05.html&apos; to &apos;BootEx05.html&apos;" description="Rename resource &apos;Bootstarp05.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/Bootstarp05.html" name="BootEx05.html" stamp="1560309448908" updateReferences="true"/>
+</session>
